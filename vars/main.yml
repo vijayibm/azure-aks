@@ -1,0 +1,10 @@
+# vars file for azure-aks
+AKS_resource_group: aksgp
+AKS_location: "East US"
+aks_name: akscluster
+username: aksuser
+node_size: Standard_D2_v2
+ssh_pub_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDa3oI75kzjS2Zp7NQsybdztMw353IHGV5TrEj62qK1gxDcxMU6u1po20chlcS7wHWN8BE9x+8UmPkOvNRt6ioIuMXaA2Q9PzXUYDa5jgRREBIUP7EPF8lbaQrRZCpPx+iJRJIPL0OhVcnNPWBEfw2Mu5obdP6fuHoPGkxAnaE/eojqJsim8nfMYdk7DSuS58bdSV1qcGiJ/yeodezSk4Hybu1/Q0eF02WVkDTYictLiv099p6EXcZigyd7QIXk+0jG/FYAHp8zTZ6blfoagoAPkcdNn1csmtME9rMNISP8AqWYqDBK4CLl3f0ebyQrZKFr+RFaCj1kwFUc+uRnOuEx root@controlnode"
+client_id: "8ee982bc-802a-4e4d-9a81-096bc91a13c7"
+client_secret: ".9gnGu6M4Ffrt6-~1WKS.W9slKMoFmJ0nf"
+k8s_version: "1.18.8"
